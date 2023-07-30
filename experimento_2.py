@@ -29,15 +29,26 @@ cod_18 = ("==Calcetines==")
 cod_19 = ("==Colonia==")
 cod_20 = ("==Doritos==")
 
-cod_2 = (233)
-cod_3 = (444)
-    
+
+import random
+mi_lista = [125,155,273,171,259,254,218,271,240,128,167,142,154,135,176,265,296,290,265,165,500]
+elemento_aleatorio = random.choice(mi_lista)
+
 
 
 
 print("==============")
 producto = input("Primer producto deseado: ")
 cantidad = int(input("Cuanta cantidad: "))
-precio = print("El pecio es: ", cod_2 )
-total_1 = cod_2 * cantidad
-print("la cantitad por precio es ",  cod_2 * cantidad)
+precio = print("El pecio es: ", elemento_aleatorio )
+total_1 = elemento_aleatorio * cantidad
+print("la cantitad por precio es ", elemento_aleatorio  * cantidad)
+print(" ")
+
+print("==============")
+producto = input("Segunto producto deseado: ")
+cantidad = int(input("Cuanta cantidad: "))
+precio = print("El pecio es: ", elemento_aleatorio )
+total_1 = elemento_aleatorio * cantidad
+print("la cantitad por precio es ",  elemento_aleatorio * cantidad)
+
